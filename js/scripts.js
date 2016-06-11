@@ -5,7 +5,7 @@ var tendies = function (option1, option2, option3, option4, option5) {
   return (option1 === 'old' && option4 === 'idk');
 };
 var python = function (option1, option2, option3, option4, option5) {
-  return (option1 === "young" && option3 >= 1 && option4 === "idk" );
+  return (option1 === "young" && option4 === "idk" );
 };
 var hawaii = function (option1, option2, option3, option4, option5) {
   return (option1 === 'old' || option1 === 'young' || option1 === 'middle-aged' && option3 >= 1 && option4 === 'african' || option4 === 'european')
