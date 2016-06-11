@@ -19,16 +19,16 @@
           <p>What is your general age group?</p>
           <div class="radiogroup text-center">
             <label class="radio-inline">
-              <input type="radio" name="radiogroup" id="young" value="young"> young
+              <input type="radio" name="radiogroup" id="young" value="young"> Young
             </label>
             <label class="radio-inline">
-              <input type="radio" name="radiogroup" id="middle-aged" value="middle-aged"> middle-aged
+              <input type="radio" name="radiogroup" id="middle-aged" value="middle-aged"> Middle-Aged
             </label>
             <label class="radio-inline">
-              <input type="radio" name="radiogroup" id="old" value="old"> old
+              <input type="radio" name="radiogroup" id="old" value="old"> Old
             </label>
           </div>
-          <div class="">
+          <div class="types">
             <p> What kind of vacation are you looking for</p>
             <select class="form-control" id="vacationtype">
               <option>Tropical</option>
@@ -38,13 +38,31 @@
           </div>
           <div class="form-group">
             <label for="number-of-people">Number of people going</label>
-            <input id="noun" class="form-control" type="text">
+            <input id="number-of-people" class="form-control" type="number">
           </div>
-
+          <div class="">
+            <div class="radiogroup text-center">
+              <label class="radio-inline">
+                <input type="radio" name="swallowgroup" id="african" value="african"> African
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="swallowgroup" id="european" value="european"> European
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="swallowgroup" id="idk" value="idk"> I don't know
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="name">What is your first name?</label>
+            <input id="name" class="form-control" type="text">
+          </div>
         </div>
+        <button type="submit" class="btn">Where the fuck should I go???</button>
       </form>
     </div>
-
+    <div id="your-recommendation">
+    </div>
   </body>
 
 </html>

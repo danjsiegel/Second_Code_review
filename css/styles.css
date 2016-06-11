@@ -1,4 +1,15 @@
-.radiogroup {
-  border: 1px solid black;
-  padding: none;
+.form-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-control {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.btn {
+  color: black;
 }
