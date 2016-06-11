@@ -7,9 +7,16 @@
   margin-bottom: 10px;
 }
 body {
-  background-color: black;
-  color: white;
+  background-color: #d9d9d9;
+  color: black;
 }
 .btn {
   color: black;
+  background-color: red;
+}
+img {
+  border-radius: 20%;
+}
+#python, #tendiesclass, #actualvacation {
+  display: none;
 }

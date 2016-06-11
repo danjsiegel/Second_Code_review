@@ -14,18 +14,18 @@
         <p>Bacon ipsum dolor amet andouille swine turkey, ham short loin venison meatloaf drumstick sirloin kielbasa doner. Picanha pork belly pork chop, tongue salami ground round pork tail andouille drumstick boudin ham capicola ball tip. Filet mignon drumstick cupim biltong bacon, porchetta kielbasa turkey hamburger shankle. Sausage short loin pig ribeye sirloin picanha jowl. Porchetta alcatra turducken pig. Tenderloin doner alcatra ham hock tri-tip shank hamburger, pork loin leberkas tail short loin beef spare ribs. Shank drumstick chicken jerky pork loin.</p>
       </div>
       <h3>About you</h3>
-      <form>
-        <div>
+      <form id="vacay">
+        <div class="wholeform">
           <p>What is your general age group?</p>
           <div class="radiogroup text-center">
             <label class="radio-inline">
-              <input type="radio" name="radiogroup" id="young" value="young"> Young
+              <input type="radio" name="agegroup" id="young" value="young"> Young
             </label>
             <label class="radio-inline">
-              <input type="radio" name="radiogroup" id="middle-aged" value="middle-aged"> Middle-Aged
+              <input type="radio" name="agegroup" id="middle-aged" value="middle-aged"> Middle-Aged
             </label>
             <label class="radio-inline">
-              <input type="radio" name="radiogroup" id="old" value="old"> Old
+              <input type="radio" name="agegroup" id="old" value="old"> Old
             </label>
           </div>
           <div class="types">
@@ -36,7 +36,7 @@
               <option>Sub-Tropical</option>
             </select>
           </div>
-          <div class="form-group">
+          <div class="form-group has-error">
             <label for="number-of-people">Number of people going</label>
             <input id="number-of-people" class="form-control" type="number">
           </div>
@@ -54,15 +54,24 @@
             </div>
           </div>
           <div class="form-group">
-            <label for="name">What is your first name?</label>
-            <input id="name" class="form-control" type="text">
+            <label for="firstname">What is your first name?</label>
+            <input id="firstname" class="form-control" type="text">
           </div>
         </div>
-        <button type="submit" class="btn">Where the fuck should I go???</button>
+        <button type="submit" class="btn">Tell me where to go</button>
       </form>
     </div>
-    <div id="your-recommendation">
-    </div>
+      <div id="python" class="align-center">
+        <h3 class="text-center">No vacation for you</h3>
+        <img src="img\montypython.png" class="img-responsive center-block" alt="monty python">
+      </div>
+      <div id="tendiesclass">
+        <h3 class="text-center">To vote for Tendies 2016</h3>
+        <img src="img\tendies.jpg" class="img-responsive center-block" alt="chicken tendies">
+      </div>
+      <div id="actualvacation" class="text-center">
+        <h3>Hawaii<h3>
+      </div>
   </body>
 
 </html>
